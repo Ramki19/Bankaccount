@@ -33,6 +33,18 @@ public class Bankaccount {
 public static void main(String args[]){
     Account ac=new Account(100);
 Scanner sc=new Scanner(System.in);
+System.out.println("Enter the choice");
+int choice=sc.nextInt();
+if(choice == 1){
+    ac.deposit(100);
+} else if (choice ==2) {
+    ac.withdrawl(77);
+} else if (choice ==3) {
+    ac.displau();
+}
+else{
+    sc.close();
+}
 
 }
 
