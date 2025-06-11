@@ -1,5 +1,5 @@
 import javax.xml.transform.Source;
-
+import java.util.*;
 class Account {
     private int balance;
     Account(int balance){
@@ -32,10 +32,8 @@ class Account {
 public class Bankaccount {
 public static void main(String args[]){
     Account ac=new Account(100);
-ac.deposit(100);
-ac.withdrawl(50);
-ac.displau();
-ac.displau();
+Scanner sc=new Scanner(System.in);
+
 }
 
 }
